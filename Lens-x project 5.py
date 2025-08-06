@@ -122,7 +122,7 @@ elif option == "ℹ️ About Me":
 
     with about_me_tab[2]: # Certifications Tab
         st.subheader("Certifications")
-        st.image("Data Analytics Certificate.png",width=350, caption="Data Analytics Certificate", use_container_width=True)
+        st.image("Data Analytics Certificate.png",width=350,caption="Data Analytics Certificate", use_container_width=False)
         st.markdown("""
         - Certified Data Analytics Specialist — Proficient in a full data stack including Python, SQL (MySQL, MongoDB), NumPy, Pandas, Statistics, Power BI, and Tableau.
 
@@ -460,6 +460,7 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
