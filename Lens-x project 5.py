@@ -122,16 +122,21 @@ elif option == "ℹ️ About Me":
 
     with about_me_tab[2]: # Certifications Tab
         st.subheader("Certifications")
+        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Data Analytics Certificate.png", caption="Data Analytics Certificate", use_container_width=True)
         st.markdown("""
-        - Data Analysis — Ducat The IT Training School, Noida (2024)
-        - SQL & Relational Databases —  Ducat The IT Training School, Noida  (2024)
-        - Python for Data Science  —  Ducat The IT Training School, Noida  (2024)
-        - Data Analysis using Microsoft Excel — Ducat The IT Training School, Noida (2024)
-        - Ducat Data Analytics Virtual Experience -  Ducat The IT Training School, Noida (2024)
-        - Data Visualisation Virtual Experience -  Ducat The IT Training School, Noida (2024)
-            Created Interactive dashboards and data storytelling reports to guide strategic decision-making in a simulated business context.
-        - GitHub Repository (Certificates Folder): [View All Certificates](your_certificates_github_link)
+        - Certified Data Analytics Specialist — Proficient in a full data stack including Python, SQL (MySQL, MongoDB), NumPy, Pandas, Statistics, Power BI, and Tableau.
+
+        - Advanced Tool Proficiency — Possess advanced skills in Microsoft Excel and PowerPoint for detailed analysis and impactful data presentations.
+
+        - End-to-End Data Workflow — Capable of transforming raw data into actionable insights and presenting them effectively.
+
+        - Driving Data-Driven Decisions — My skills are focused on helping organizations make informed decisions based on solid data analysis.
+        
+        - Created Interactive dashboards and data storytelling reports to guide strategic decision-making in a simulated business context.
+        
+        - GitHub Repository (Certificates Folder): [View All Certificates](https://github.com/PraveenTripathi020/My_Certificate.git)
         """)
+
 
 elif option == "📝 Projects":
     st.header("My Projects")
@@ -370,7 +375,30 @@ elif option == "📝 Projects":
         
         [Tableau Public](https://public.tableau.com/views/Book215april/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
         """)
+        # Interactive Dynamic Sales Report Dashboard
+        st.markdown("---")
+        st.subheader("7. Interactive Dynamic Sales Report Dashboard With Excel")
+        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Excel Dashboard.png", caption="Interactive Dynamic Sales Report Dashboard", use_container_width=True)
+        st.markdown("""
+        यह एक्सेल डैशबोर्ड बिक्री, ऑर्डर, मात्रा और लाभ जैसे प्रमुख प्रदर्शन संकेतकों (KPIs) को दर्शाता है। इसमें तिमाही और श्रेणी के अनुसार बिक्री को विभिन्न चार्ट के माध्यम से प्रस्तुत किया गया है।
+        दाईं ओर दिए गए फ़िल्टर इसे इंटरैक्टिव बनाते हैं, जिससे उपयोगकर्ता अपनी पसंद के डेटा का आसानी से विश्लेषण कर सकते हैं।
+        यह डैशबोर्ड बिक्री के प्रदर्शन का एक व्यापक, फिर भी संक्षिप्त अवलोकन प्रदान करता है।
+                    
+        [GitHub Repository](https://github.com/PraveenTripathi020/Excel-Dashboard.git)
+        """)
 
+        # MS-Powerpoint Project
+        st.markdown("---")
+        st.subheader("8. Food Delivery App Sales Presentation With Ms-Powerpoint")
+        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Ms-power point project.png", caption="Food Delivery App Sales Presentation", use_container_width=True)
+        st.markdown("""              
+        यह पावरपॉइंट स्लाइड एक फ़ूड डिलीवरी ऐप की बिक्री (Sales) का ग्राफ़ दिखाती है। यहाँ कुछ मुख्य बिंदु दिए गए हैं:
+        यह स्लाइड 2020 से 2025 तक एक फ़ूड डिलीवरी ऐप की बिक्री का प्रदर्शन करती है। ग्राफ़ में 2023 तक बिक्री में लगातार वृद्धि देखी गई,
+        जिसके बाद 2024 में थोड़ी गिरावट आई और 2025 में फिर से सुधार हुआ। यह प्रस्तुति कंपनी के पिछले और अनुमानित बिक्री प्रदर्शन को दर्शाती है
+                    
+        [GitHub Repository](https://github.com/PraveenTripathi020/Ms-power-point-project.git)
+        """)
+    
     with project_tabs[2]: # Banking Automation System
         st.subheader("Banking Automation System")
         st.image("Banking Automation.png", caption="Banking Automation System Interface", use_container_width=True)
@@ -432,4 +460,5 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
