@@ -123,6 +123,12 @@ elif option == "ℹ️ About Me":
     with about_me_tab[2]: # Certifications Tab
         st.subheader("Certifications")
         st.image("Data Analytics Certificate.png",width=350,caption="Data Analytics Certificate", use_container_width=False)
+
+        # New certificates added here
+        st.image("Power point certificate.jpg", width=350, caption="PowerPoint Certificate", use_column_width=False)
+        st.image("Rubicon Employability certificate.jpg", width=350, caption="Rubicon Employability Certificate", use_column_width=False)
+        st.image("Excel Certificate.jpg", width=350, caption="Excel Certificate", use_column_width=False)
+        
         st.markdown("""
         - Certified Data Analytics Specialist — Proficient in a full data stack including Python, SQL (MySQL, MongoDB), NumPy, Pandas, Statistics, Power BI, and Tableau.
 
@@ -133,6 +139,9 @@ elif option == "ℹ️ About Me":
         - Driving Data-Driven Decisions — My skills are focused on helping organizations make informed decisions based on solid data analysis.
         
         - Created Interactive dashboards and data storytelling reports to guide strategic decision-making in a simulated business context.
+
+        - Employability Skills Training – Rubicon LifeSkills Program (Sept 2023) 
+        – Covered Communication, Teamwork, Interview Skills & Corporate Readiness.             
         
         - GitHub Repository (Certificates Folder): [View All Certificates](https://github.com/PraveenTripathi020/My_Certificate.git)
         """)
@@ -460,6 +469,7 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
