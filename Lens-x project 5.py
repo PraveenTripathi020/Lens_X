@@ -125,8 +125,8 @@ elif option == "ℹ️ About Me":
         st.image("Data Analytics Certificate.png",width=350,caption="Data Analytics Certificate", use_container_width=False)
 
         # New certificates added here
-        st.image("Power point certificate.png", width=350, caption="PowerPoint Certificate", use_column_width=False)
-        st.image("Rubicon Employability certificate.jpg", width=350, caption="Rubicon Employability Certificate", use_column_width=False)
+        st.image("Power point certificate.png", width=350, caption="PowerPoint Certificate", use_container_width=False)
+        st.image("Rubicon Employability certificate.jpg", width=350, caption="Rubicon Employability Certificate", use_container_width=False)
         st.image("Excel Certificate.png", width=350, caption="Excel Certificate", use_column_width=False)
         
         st.markdown("""
@@ -469,6 +469,7 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
