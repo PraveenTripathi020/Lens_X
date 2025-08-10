@@ -128,6 +128,7 @@ elif option == "ℹ️ About Me":
         st.image("Power point certificate.png", width=350, caption="PowerPoint Certificate", use_container_width=False)
         st.image("Rubicon Employability certificate.jpg", width=350, caption="Rubicon Employability Certificate", use_container_width=False)
         st.image("Excel Certificate.png", width=350, caption="Excel Certificate", use_container_width=False)
+        st.image("MBA Certificate.jpg", width=350, caption="MBA Certificate", use_container_width=False)
         
         st.markdown("""
         - Certified Data Analytics Specialist — Proficient in a full data stack including Python, SQL (MySQL, MongoDB), NumPy, Pandas, Statistics, Power BI, and Tableau.
@@ -139,6 +140,8 @@ elif option == "ℹ️ About Me":
         - Driving Data-Driven Decisions — My skills are focused on helping organizations make informed decisions based on solid data analysis.
         
         - Created Interactive dashboards and data storytelling reports to guide strategic decision-making in a simulated business context.
+
+        - My MBA from a reputable university like Dr. A.P.J. Abdul Kalam Technical University has equipped me with a strong foundation in business administration, which I am eager to apply to real-world challenges.
 
         - Employability Skills Training – Rubicon LifeSkills Program (Sept 2023) 
         – Covered Communication, Teamwork, Interview Skills & Corporate Readiness.             
@@ -469,6 +472,7 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
