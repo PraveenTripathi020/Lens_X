@@ -150,8 +150,9 @@ elif option == "ℹ️ About Me":
         - **End-to-End Data Workflow** — Capable of transforming raw data into actionable insights and presenting them effectively.
         - **Driving Data-Driven Decisions** — My skills are focused on helping organizations make informed decisions based on solid data analysis.
         - **Created Interactive dashboards and data storytelling reports to guide strategic decision-making in a simulated business context.**
-        - **My MBA from a reputable university like Dr. A.P.J. Abdul Kalam Technical University has equipped me with a strong foundation in business administration, which I am eager to apply to real-world challenges.** - **Employability Skills Training** – Rubicon LifeSkills Program (Sept 2023) 
-        – Covered Communication, Teamwork, Interview Skills & Corporate Readiness.             
+        - **My MBA from a reputable university like Dr. A.P.J. Abdul Kalam Technical University has equipped me with a strong foundation in business administration, which I am eager to apply to real-world challenges.** 
+        - **Employability Skills Training** – Rubicon LifeSkills Program (Sept 2023) 
+          – Covered Communication, Teamwork, Interview Skills & Corporate Readiness.             
         - **GitHub Repository (Certificates Folder): [View All Certificates]**(https://github.com/PraveenTripathi020/My_Certificate.git)
         """)
 
@@ -342,7 +343,7 @@ elif option == "📝 Projects":
         # IPL Dashboard
         st.markdown("---")
         st.subheader("1. IPL Dashboard (2008-2024)")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/IPL Dashboard (2).png", caption="IPL Dashboard (2008-2024)", use_column_width=True)
+        st.image("IPL Dashboard (2).png", caption="IPL Dashboard (2008-2024)", use_container_width=True)
         st.markdown("""
         यह डैशबोर्ड IPL (इंडियन प्रीमियर लीग) के 2008 से 2024 तक के डेटा का गहन विश्लेषण प्रस्तुत करता है।
         इसमें टीमों के प्रदर्शन, खिलाड़ियों के आँकड़े और विभिन्न सीज़न के विजेताओं की जानकारी शामिल है।
@@ -354,7 +355,7 @@ elif option == "📝 Projects":
         # HR Analytics Dashboard
         st.markdown("---")
         st.subheader("2. HR Analytics Dashboard")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/HR Analytics Dashboard-1.png", caption="HR Analytics Dashboard", use_column_width=True)
+        st.image("HR Analytics Dashboard-1.png", caption="HR Analytics Dashboard", use_container_width=True)
         st.markdown("""
         यह HR एनालिटिक्स डैशबोर्ड मानव संसाधन डेटा का व्यापक अवलोकन प्रदान करता है।
         यह कर्मचारियों की संख्या, औसत वेतन, विभाग-वार विश्लेषण और कर्मचारी जनसांख्यिकी जैसे महत्वपूर्ण HR मेट्रिक्स को ट्रैक करने में मदद करता है।
@@ -366,7 +367,7 @@ elif option == "📝 Projects":
         # Sachin ODI Dashboard
         st.markdown("---")
         st.subheader("3. Sachin ODI Dashboard")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Sachin Dashboard.png", caption="Sachin ODI Dashboard", use_column_width=True)
+        st.image("Sachin Dashboard.png", caption="Sachin ODI Dashboard", use_container_width=True)
         st.markdown("""
         यह डैशबोर्ड महान क्रिकेटर सचिन तेंदुलकर के वनडे अंतर्राष्ट्रीय (ODI) करियर के आँकड़ों पर केंद्रित है।
         इसमें उनके रन, शतक, मैच, जीत-हार का रिकॉर्ड और विभिन्न मैदानों पर उनके प्रदर्शन का विस्तृत विश्लेषण शामिल है।
@@ -378,7 +379,7 @@ elif option == "📝 Projects":
         # Covid-19 Dashboard
         st.markdown("---")
         st.subheader("4. Covid-19 Dashboard")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Covid-19 Dashboard.png", caption="Covid-19 Dashboard", use_column_width=True)
+        st.image("Covid-19 Dashboard.png", caption="Covid-19 Dashboard", use_container_width=True)
         st.markdown("""
         यह COVID-19 डैशबोर्ड भारत में महामारी की स्थिति को दर्शाता है।
         इसमें पुष्ट मामले, सक्रिय मामले, ठीक हुए मामले, मृत्यु और रिकवरी दर जैसे महत्वपूर्ण डेटा शामिल हैं।
@@ -390,7 +391,7 @@ elif option == "📝 Projects":
         # Olympic Sports Dashboard
         st.markdown("---")
         st.subheader("5. Olympic Sports Dashboard (1896-2016)")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Olympic sports Dashboard.png", caption="Olympic Sports Dashboard (1896-2016)", use_column_width=True)
+        st.image("Olympic sports Dashboard.png", caption="Olympic Sports Dashboard (1896-2016)", use_container_width=True)
         st.markdown("""
         यह ओलंपिक स्पोर्ट्स डैशबोर्ड 1896 से 2016 तक के ओलंपिक खेलों के डेटा का विश्लेषण करता है।
         इसमें कुल खेल, कुल प्रतिभागी, लिंग के आधार पर पदक की संख्या और शीर्ष पदक जीतने वाले देशों की जानकारी शामिल है।
@@ -402,7 +403,7 @@ elif option == "📝 Projects":
         # Superstore  Dashboard
         st.markdown("---")
         st.subheader("6. Superstore Dashboard With Tableau")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Superstore dashboard.png", caption="Superstore Dashboard", use_column_width=True)
+        st.image("Superstore dashboard.png", caption="Superstore Dashboard", use_container_width=True)
         st.markdown("""
         यह डैशबोर्ड सुपरस्टोर के प्रदर्शन का एक संक्षिप्त अवलोकन प्रदान करता है। इसमें कुल ऑर्डर, बिक्री और लाभ के साथ-साथ साल-दर-साल बिक्री और लाभ का रुझान (trend) दिखाया गया है। 
         इसके अलावा, यह विभिन्न उप-श्रेणियों (sub-categories) के प्रदर्शन को भी उजागर करता है ताकि यह पता चल सके कि कौन से उत्पाद सबसे अधिक लाभदायक या बिक्री वाले हैं।
@@ -413,7 +414,7 @@ elif option == "📝 Projects":
         # Interactive Dynamic Sales Report Dashboard
         st.markdown("---")
         st.subheader("7. Interactive Dynamic Sales Report Dashboard With Excel")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Excel Dashboard.png", caption="Interactive Dynamic Sales Report Dashboard", use_column_width=True)
+        st.image("Excel Dashboard.png", caption="Interactive Dynamic Sales Report Dashboard", use_container_width=True)
         st.markdown("""
         यह एक्सेल डैशबोर्ड बिक्री, ऑर्डर, मात्रा और लाभ जैसे प्रमुख प्रदर्शन संकेतकों (KPIs) को दर्शाता है। इसमें तिमाही और श्रेणी के अनुसार बिक्री को विभिन्न चार्ट के माध्यम से प्रस्तुत किया गया है।
         दाईं ओर दिए गए फ़िल्टर इसे इंटरैक्टिव बनाते हैं, जिससे उपयोगकर्ता अपनी पसंद के डेटा का आसानी से विश्लेषण कर सकते हैं।
@@ -425,7 +426,7 @@ elif option == "📝 Projects":
         # MS-Powerpoint Project
         st.markdown("---")
         st.subheader("8. Food Delivery App Sales Presentation With Ms-Powerpoint")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Ms-power point project.png", caption="Food Delivery App Sales Presentation", use_column_width=True)
+        st.image("Ms-power point project.png", caption="Food Delivery App Sales Presentation", use_container_width=True)
         st.markdown("""              
         यह पावरपॉइंट स्लाइड एक फ़ूड डिलीवरी ऐप की बिक्री (Sales) का ग्राफ़ दिखाती है। यहाँ कुछ मुख्य बिंदु दिए गए हैं:
         यह स्लाइड 2020 से 2025 तक एक फ़ूड डिलीवरी ऐप की बिक्री का प्रदर्शन करती है। ग्राफ़ में 2023 तक बिक्री में लगातार वृद्धि देखी गई,
@@ -436,7 +437,7 @@ elif option == "📝 Projects":
 
     with project_tabs[2]: # Banking Automation System
         st.subheader("Banking Automation System")
-        st.image("C:/Users/prave\Desktop/Gen AI/NLP Videos/NLP Project Programs/Banking Automation.png", caption="Banking Automation System Interface", use_column_width=True)
+        st.image("Banking Automation.png", caption="Banking Automation System Interface", use_container_width=True)
         st.markdown("""
         A desktop-based Python application that simulates core banking operations.
         This project focuses on automation of basic financial tasks with a clean interface.
@@ -456,7 +457,7 @@ elif option == "📝 Projects":
        # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
     with project_tabs[3]: # Restaurant Billing System (NEW TAB)
         st.subheader("Restaurant Billing System")
-        st.image("Restaurant Billing System.png", caption="Restaurant Billing System Interface", use_column_width=True) # Assuming the image is in the same directory as the script.
+        st.image("Restaurant Billing System.png", caption="Restaurant Billing System Interface", use_container_width=True) # Assuming the image is in the same directory as the script.
         st.markdown("""
         A user-friendly desktop application designed to streamline billing operations for restaurants.
         This system aims to simplify order management, bill generation, and payment processing, enhancing efficiency in daily restaurant operations.
@@ -495,4 +496,5 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
