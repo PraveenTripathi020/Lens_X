@@ -136,13 +136,13 @@ elif option == "ℹ️ About Me":
 
     with about_me_tab[2]: # Certifications Tab
         st.subheader("Certifications")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Data Analytics Certificate.png",width=350, caption="Data Analytics Certificate", use_column_width=False)
+        st.image("Data Analytics Certificate.png",width=350, caption="Data Analytics Certificate", use_column_width=False)
         
         # New certificates added here
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Power point certificate.png", width=350, caption="PowerPoint Certificate", use_column_width=False)
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Rubicon Employability certificate.jpg", width=350, caption="Rubicon Employability Certificate", use_column_width=False)
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Excel Certificate.png", width=350, caption="Excel Certificate", use_column_width=False)
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/MBA Certificate.jpg", width=350, caption="MBA Certificate", use_column_width=False)
+        st.image("Power point certificate.png", width=350, caption="PowerPoint Certificate", use_container_width=False)
+        st.image("Rubicon Employability certificate.jpg", width=350, caption="Rubicon Employability Certificate", use_container_width=False)
+        st.image("Excel Certificate.png", width=350, caption="Excel Certificate", use_container_width=False)
+        st.image("MBA Certificate.jpg", width=350, caption="MBA Certificate", use_container_width=False)
         
         st.markdown("""
         - **Certified Data Analytics Specialist** — Proficient in a full data stack including Python, SQL (MySQL, MongoDB), NumPy, Pandas, Statistics, Power BI, and Tableau.
@@ -157,7 +157,7 @@ elif option == "ℹ️ About Me":
 
     with about_me_tab[3]: # Internship Tab
         st.subheader("Internship")
-        st.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Digital marketing internship certificate.jpg",width=350, caption="Digital Marketing Internship Certificate", use_column_width=False)
+        st.image("Digital marketing internship certificate.jpg",width=350, caption="Digital Marketing Internship Certificate", use_container_width=False)
         st.markdown("""
         - **Internship Experience**: "I successfully completed a 2-month digital marketing internship at G-TECH INFO INDIA PRIVATE LIMITED, from August 25, 2023, to October 25, 2023."
         - **Skills Acquired**: During my internship, I gained hands-on experience in various aspects of digital marketing, including
@@ -495,3 +495,4 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
