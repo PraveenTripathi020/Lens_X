@@ -94,7 +94,7 @@ if option == "🏠 Home":
 
 elif option == "ℹ️ About Me":
     st.header("About Me")
-    about_me_tab = st.tabs(["Education", "Skills", "Certifications"])
+    about_me_tab = st.tabs(["Education", "Skills", "Certifications", "Internship"])
 
     with about_me_tab[0]: # Education Tab
         st.subheader("Education")
@@ -499,6 +499,7 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
