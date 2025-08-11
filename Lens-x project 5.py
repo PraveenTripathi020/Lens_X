@@ -136,7 +136,7 @@ elif option == "ℹ️ About Me":
 
     with about_me_tab[2]: # Certifications Tab
         st.subheader("Certifications")
-        st.image("Data Analytics Certificate.png",width=350, caption="Data Analytics Certificate", use_column_width=False)
+        st.image("Data Analytics Certificate.png",width=350, caption="Data Analytics Certificate", use_container_width=False)
         
         # New certificates added here
         st.image("Power point certificate.png", width=350, caption="PowerPoint Certificate", use_container_width=False)
@@ -496,5 +496,6 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
