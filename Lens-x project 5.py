@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 import requests
 import io # Import io module for file handling
+import base64 # Import base64 module
 
 # ---------------------------- PAGE CONFIG ---------------------------- #
 st.set_page_config(page_title="AI & NLP Combo Suite", layout="wide", page_icon="🤖")
@@ -85,11 +86,15 @@ if option == "🏠 Home":
         <p>My interests span across Natural Language Processing, Computer Vision, and Data-Driven Problem Solving. I enjoy building intelligent systems that solve real-world challenges and thrive in collaborative environments where innovation happens.</p>
         <h3>Data Analytics</h3>
         <p>I'm passionate about transforming raw data into actionable insights that drive real business outcomes. My goal is to leverage analytical techniques to solve complex problems and contribute directly to strategic decision-making.</p>        
-        <br>
-        <a href="/mnt/data/Rishaloo_CV.pdf" download>
-            <button style='font-size:18px;padding:10px 20px;border:none;border-radius:8px;background:#4CAF50;color:white;'>📄 Download CV</button>
-        </a>
+        <br>     
     """, unsafe_allow_html=True)
+    # Use the custom function to generate the colored download button
+    try:
+        button_html = get_download_link("Praveen Kumar Tripathi.pdf", "📄 Download CV", "#4CAF50") # Green color
+        st.markdown(button_html, unsafe_allow_html=True)
+    except FileNotFoundError:
+        st.error("CV file 'Praveen Kumar Tripathi.pdf' not found. Please ensure the file is in the same directory.")
+        
     st.image("https://cdn-icons-png.flaticon.com/512/4712/4712107.png", width=150)
 
 elif option == "ℹ️ About Me":
@@ -499,6 +504,7 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
