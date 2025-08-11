@@ -204,7 +204,7 @@ elif option == "📝 Projects":
                     cols = st.columns(5)
                     for col, (name, imdb_id, poster) in zip(cols, recommendations):
                         with col:
-                            st.image(poster, use_column_width=True, caption=name)
+                            st.image(poster, use_container_width=True, caption=name)
                             st.markdown(f"[🔗 IMDB](https://www.imdb.com/title/{imdb_id})")
 
         elif model_choice == "📩 Spam Classifier":
@@ -496,6 +496,7 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
