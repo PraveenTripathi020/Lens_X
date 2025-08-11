@@ -131,22 +131,49 @@ elif option == "ℹ️ About Me":
         st.image("MBA Certificate.jpg", width=350, caption="MBA Certificate", use_container_width=False)
         
         st.markdown("""
-        - Certified Data Analytics Specialist — Proficient in a full data stack including Python, SQL (MySQL, MongoDB), NumPy, Pandas, Statistics, Power BI, and Tableau.
+            - **Certified Data Analytics Specialist** — Proficient in a full data stack including Python, SQL (MySQL, MongoDB), NumPy, Pandas, Statistics, Power BI, and Tableau.
+    
+            - **Advanced Tool Proficiency** — Possess advanced skills in Microsoft Excel and PowerPoint for detailed analysis and impactful data presentations.
+    
+            - **End-to-End Data Workflow** — Capable of transforming raw data into actionable insights and presenting them effectively.
+    
+            - **Driving Data-Driven Decisions** — My skills are focused on helping organizations make informed decisions based on solid data analysis.
+            
+            - **Created Interactive dashboards and data storytelling reports to guide strategic decision-making in a simulated business context.**
+            
+            - **My MBA from a reputable university like Dr. A.P.J. Abdul Kalam Technical University has equipped me with a strong foundation in business administration, which I am eager to apply to real-world challenges.**          
+    
+            - **Employability Skills Training** – Rubicon LifeSkills Program (Sept 2023) 
+            – Covered Communication, Teamwork, Interview Skills & Corporate Readiness.             
+              
+            - **GitHub Repository (Certificates Folder): [View All Certificates]**(https://github.com/PraveenTripathi020/My_Certificate.git)
+            """)
 
-        - Advanced Tool Proficiency — Possess advanced skills in Microsoft Excel and PowerPoint for detailed analysis and impactful data presentations.
+    with about_me_tab[3]: # Internship Tab
+        st.subheader("Internship")
+        st.image("Digital marketing internship certificate.jpg",width=350, caption="Digital Marketing Internship Certificate", use_container_width=False)
+        st.markdown("""
+        - **Internship Experience**: "I successfully completed a 2-month digital marketing internship at G-TECH INFO INDIA PRIVATE LIMITED, from August 25, 2023, to October 25, 2023."
 
-        - End-to-End Data Workflow — Capable of transforming raw data into actionable insights and presenting them effectively.
+        - **Skills Acquired**: During my internship, I gained hands-on experience in various aspects of digital marketing, including
 
-        - Driving Data-Driven Decisions — My skills are focused on helping organizations make informed decisions based on solid data analysis.
-        
-        - Created Interactive dashboards and data storytelling reports to guide strategic decision-making in a simulated business context.
+          - **Search Engine Optimization (SEO)**
 
-        - My MBA from a reputable university like Dr. A.P.J. Abdul Kalam Technical University has equipped me with a strong foundation in business administration, which I am eager to apply to real-world challenges.
+          - **Social Media Marketing**
 
-        - Employability Skills Training – Rubicon LifeSkills Program (Sept 2023) 
-        – Covered Communication, Teamwork, Interview Skills & Corporate Readiness.             
-        
-        - GitHub Repository (Certificates Folder): [View All Certificates](https://github.com/PraveenTripathi020/My_Certificate.git)
+          - **Email Marketing**
+
+          - **Content Marketing**
+
+          - **Pay-Per-Click Advertising (PPC)**
+
+          - **Analytics and Reporting**
+
+        - **Contributions**: "I demonstrated a strong commitment to learning and actively contributed to the success of the digital marketing initiatives during my internship."
+
+        - **Supervision**: "I worked under the guidance of my supervisor, Sushma Yadav, who holds the title of SEO Manager."
+
+        - **GitHub Repository**: [View Intership Certificate]: (https://github.com/PraveenTripathi020/Internship_Certificate.git)          
         """)
 
 
@@ -472,6 +499,7 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
