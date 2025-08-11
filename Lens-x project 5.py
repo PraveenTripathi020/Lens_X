@@ -157,7 +157,7 @@ elif option == "ℹ️ About Me":
         """)
 
     with about_me_tab[3]: # Internship Tab
-        st.subheader("Internship")
+        st.subheader("Digital Marketing Internship")
         st.image("Digital marketing internship certificate.jpg",width=350, caption="Digital Marketing Internship Certificate", use_container_width=False)
         st.markdown("""
         - **Internship Experience**: "I successfully completed a 2-month digital marketing internship at G-TECH INFO INDIA PRIVATE LIMITED, from August 25 2023 to October 25 2023."
@@ -496,6 +496,7 @@ st.markdown("""
 🤖 <b>AI & NLP Combo Suite</b> | Built with ❤️ by Praveen Kumar Tripathi | © 2025
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
